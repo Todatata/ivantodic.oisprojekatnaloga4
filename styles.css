@@ -1,0 +1,251 @@
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            color: white; 
+            background-image: url('slike/background.jpg');
+            background-size: cover;        
+            background-repeat: no-repeat;  
+            background-attachment: fixed;  
+            background-position: center;
+        }
+
+        div {
+        text-align: center;
+        border: 5px solid beige; 
+        border-radius: 15px; 
+        box-shadow: 10px 10px 5px grey;
+        }
+
+        fieldset{
+        border: 2px solid beige;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        width: 80%;
+        max-width: 600px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+        
+        
+        a {
+         color: blue;
+        text-decoration: none; 
+        }
+
+
+        a:hover {
+         color: rgb(0, 247, 255); 
+        text-decoration: underline; 
+        }
+
+
+        footer {
+            text-align: center;
+        }
+
+        table {
+        margin: 0 auto; 
+        border-collapse: collapse; 
+}
+
+
+        h1 {
+        text-align: center;
+        font-weight: 300;  
+        letter-spacing: 2px;
+        margin-top: 20px;
+        font-size: 2.5em;
+         }
+
+
+         h2 {
+            font-weight: 300;  
+            letter-spacing: 2px;
+        }
+
+        hr {
+            border: 2px dotted beige; 
+            margin-left: 20%; 
+            margin-right: 20%;
+        }
+        
+
+        body.galerija.body img {
+            border-radius: 10px;
+        }
+
+
+        .frame{
+            position: absolute;
+            margin-top: 10px; 
+            margin-right: 30px; 
+            margin-bottom: 10px; 
+            margin-left: 30px; 
+            border: 5px solid beige; 
+            border-radius: 15px; 
+            box-shadow: 10px 10px 5px grey;
+            width: 45%;
+            height: 500px;
+        }
+
+        #mapadesno{
+            margin-left: 52%; 
+        }
+
+        div > .paragraf{
+            text-decoration: underline wavy;
+        }
+
+        header > div{
+            margin-right: 100px;
+            margin-left: 100px;
+        }
+
+        .slika img {
+      width: 100%;
+      height: 500px; 
+      display: block; 
+    } 
+
+        img:hover {
+        opacity: 0.5; 
+        }
+
+
+        #right{
+            margin-left: 52%;
+        }
+
+
+        #secondleft{
+            margin-top: 535px;
+            
+        }
+
+
+        #secondright{
+            margin-top: 535px;
+            margin-left: 52%;
+        }
+
+
+        #thirdleft{
+            margin-top: 1060px;
+            
+        }
+
+
+        #thirdright{
+            margin-top: 1060px;
+            margin-left: 52%;
+        }
+
+        .forma{
+            text-align: center;
+            margin-top: 10px; 
+            margin-right: 40%; 
+            margin-bottom: 10px; 
+            margin-left: 40%; 
+            border: 5px solid beige; 
+            border-radius: 15px; 
+            box-shadow: 10px 10px 5px grey;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 10px; 
+            margin-right: 30px; 
+            margin-bottom: 30px; 
+            margin-left: 30px; 
+            border: 5px solid beige; 
+            border-radius: 15px; 
+            box-shadow: 10px 10px 5px grey;
+            height: 500px;
+        }
+        .container img {
+        border-radius: 10px;
+        height: 260px;
+        
+        }
+
+
+        .button{
+            background-color: rgb(0, 136, 255);
+        }
+        .button:hover{
+            background-color: rgb(0, 247, 255);
+        }
+
+
+
+
+        main {
+         display: flex;
+         flex-direction: column;
+         gap: 40px;
+         margin: 0 5%;
+        }
+
+
+        .hero-img {
+        max-width: 100%;
+         height: auto;
+         display: block;
+          margin: 20px auto;
+        }
+
+
+        .media {
+         display: flex;
+         flex-wrap: wrap;
+         gap: 20px;
+         justify-content: center;
+        }
+        .media iframe {
+         flex: 1 1 45%;
+         max-width: 100%;
+         height: 400px;
+        }
+
+
+
+
+        @media (max-width: 768px) {
+        nav a {
+          display: block;
+          margin: 6px 0;
+        }
+        .media iframe {
+          flex: 1 1 100%;
+         height: 300px;
+         }
+        }
+
+
+        @media (max-width: 480px) {
+        body {
+         font-size: 16px;
+        }
+        main {
+            margin: 0 3%;
+        }
+        h1 {
+         font-size: 1.8em;
+        }
+        .hero-img {
+          width: 100%;
+        }
+        }
+
+ 
+
+            ul {
+               text-align: left;
+               margin-left: 20%;
+              margin-right: 20%;
+              font-size: 1.2em;
+             line-height: 1.6em;
+         }
+            ol {
+              text-align: center;
+         }

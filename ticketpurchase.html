@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase your tickets</title>
+    <link rel="icon" type="image/x-icon" href="slike/logo.svg">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+      <!--Internal CSS-->
+    
+    form {
+    width: 80%;          
+    max-width: 600px;   
+    margin: 0 auto;      
+    text-align: left;    
+    }
+    </style>
+
+</head>
+<body>
+<header>
+        <br>
+        <div>
+        <h1>LOUVRE TICKET PURCHASE</h1>
+        <nav>
+      <a href="https://www.louvre.fr/en">Official Louvre Page</a> |
+      <a href="istorija.html">History of the Louvre</a> |
+      <a href="index.html">Home Page</a> |
+      <a href="ticketprice.html">Ticket Prices</a> |
+      <a href="galerija2.html">Gallery of the louvre</a>
+    </nav>
+        </div>
+        <br>
+    </header>
+    <main>
+    <h1>Purchase Tickets</h1>
+  <form action="#" method="post">
+    <section>
+    <fieldset>
+      <legend>Buyer Information</legend>
+
+      <label for="fname">First Name: *</label><br>
+      <input type="text" id="fname" name="fname" required><br><br>
+
+      <label for="lname">Last Name: *</label><br>
+      <input type="text" id="lname" name="lname" required><br><br>
+
+      <label for="age">Age: *</label><br>
+      <input type="number" id="age" name="age" min="1" max="120" required><br><br>
+
+      <label for="email">Email Address: *</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="phone">Phone Number: *</label><br>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{6,15}" required>
+      <small>Numbers only (6-15 digits)</small><br><br>
+    </fieldset>
+    </section>
+
+    <section>
+    <fieldset>
+      <legend>Ticket Details</legend>
+
+      <label for="date">Date of Visit: *</label><br>
+      <input type="date" id="date" name="date" required><br><br>
+
+      <label for="time">Time of Visit:</label><br>
+      <input type="time" id="time" name="time"><br><br>
+
+      <label for="tickets">Number of Tickets: *</label><br>
+      <input type="number" id="tickets" name="tickets" min="1" max="10" required><br><br>
+
+      <label for="type">Ticket Type: *</label><br>
+      <select id="type" name="type" required>
+        <option value="">--Select a ticket type--</option>
+        <option value="adult">Adult</option>
+        <option value="student">Student</option>
+        <option value="child">Child</option>
+        <option value="senior">Senior</option>
+      </select><br><br>
+
+      <label for="extras">Additional Requests:</label><br>
+      <textarea id="extras" name="extras" rows="4" cols="40" placeholder="Write your comments or requests here..."></textarea><br><br>
+    </fieldset>
+    </section>
+
+    <section>
+    <fieldset>
+      <legend>Payment Method</legend>
+      <ul>
+        <li><input type="radio" id="credit" name="payment" value="credit" required> <label for="credit">Credit Card</label></li>
+        <li><input type="radio" id="paypal" name="payment" value="paypal"> <label for="paypal">PayPal</label></li>
+        <li><input type="radio" id="cash" name="payment" value="cash"> <label for="cash">Pay on Arrival</label></li>
+      </ul>
+    </fieldset>
+    </section>
+    <section>
+    <fieldset>
+      <legend>Extras</legend>
+      <label>Would you like to receive promotional emails?</label><br>
+      <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+      <label for="newsletter">Yes, sign me up!</label><br><br>
+    </fieldset>
+    </section>
+
+    <section>
+    <div class="forma">
+        
+        <input class="button" type="submit" value="Purchase Tickets">
+        <input class="button" type="reset" value="Clear Form">
+
+    </div>
+    </section>
+    
+  </form>
+
+  <p style="text-align: center;">* Required fields</p>
+  </main>
+    
+  <br>
+    <hr>
+    <footer>
+    <p>Author: Ivan Todić —  2025</p>
+    </footer>
+</body>
+
+
+</html>
